@@ -130,7 +130,24 @@ body {
   visibility: visible;
 }
 
-.box .content a:hover {
-  color: #000;
-  background: #fff;
+.box .content .hvrclr1:hover {
+  color: #fff;
+  background: #a53f20;
+  background-image: linear-gradient(to right, #ff0000, #ff5e00);
+}
+
+.box .content .hvrclr2:hover {
+  color: #fff;
+  background: #40db67;
+  background-image: linear-gradient(to right, #24cf32, #18c088);
+}
+.box .content .hvrclr3:hover {
+  color: #fff;
+  background: #2616b6;
+  background-image: linear-gradient(to right, #5900ff, #1900ff);
+}
+.box .content .hvrclr4:hover {
+  color: #fff;
+  background: #1a8fb3;
+  background-image: linear-gradient(to right, #006eff, #17c1c7);
 }
